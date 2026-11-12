@@ -1,20 +1,22 @@
-# Privacy Policy — Table Totals for Metabase
+# Privacy Policy — Table Totals & Pivot Sort for Metabase
 
-Last updated: November 11, 2026
+Last updated: November 12, 2026
 
-Table Totals for Metabase ("the extension") adds a totals row to tables in Metabase, a business intelligence tool you
-open in your browser. This policy explains what the extension does with data.
+Table Totals & Pivot Sort for Metabase ("the extension") adds a totals row to tables and sorting by value to pivot
+tables in Metabase, a business intelligence tool you open in your browser. This policy explains what the extension does with data.
 
 ## What the extension reads
 
 On the Metabase sites where you enable it, the extension reads the table results that Metabase has already loaded in
-your browser, to compute sums, averages, minimums, maximums and counts. It reads nothing on other sites.
+your browser, to compute sums, averages, minimums, maximums and counts. For pivot tables it reads the results Metabase
+receives and, if you turned sorting on for that table, changes only the order of their rows before Metabase shows
+them. It reads nothing on other sites.
 
 ## What it stores
 
-It stores which total you chose for each column (for example, "average" for a price column), the date your free trial
-started, and your license key once you enter one. These are saved in your browser and do not leave your computer,
-except as described below.
+It stores which total you chose for each column (for example, "average" for a price column), how you chose to sort each
+pivot table, the date your free trial started, and your license key once you enter one. These are saved in your
+browser and do not leave your computer, except as described below.
 
 ## What it sends
 
@@ -30,13 +32,14 @@ https://freemius.com/privacy/
 
 - **Access to your Metabase site** — asked separately for each site you enable, so the totals row can be added there.
   Metabase Cloud sites (`*.metabaseapp.com`) are covered by default.
-- **scripting** — to add the totals script to the sites you enabled.
+- **scripting** — to add the extension's scripts (totals row and pivot sorting) to the sites you enabled.
 - **storage** — to remember which sites you enabled, the trial start date and your license key.
 - **Access to api.freemius.com** — to check your license key.
 - **activeTab** — to read the address of the current tab when you open the extension's window.
 
 You can turn the extension off for a site from its window, or remove the site's access in Chrome's extension settings.
-Removing the extension deletes everything it stored.
+Removing the extension deletes the license key, the trial date and the list of sites. The column and sorting choices
+are kept in the storage of your Metabase site in this browser; clearing that site's data in Chrome removes them.
 
 ## Contact
 
