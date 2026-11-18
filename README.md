@@ -32,7 +32,7 @@ Works with **self-hosted Metabase** and **Metabase Cloud**.
 
 ## Install
 
-Chrome Web Store — coming soon.
+[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/liionigkgdgjnhbielbifobaonmococa)
 
 After installing, open your Metabase, click the extension icon and choose **Enable on this site** (the page reloads
 once). Metabase Cloud (`*.metabaseapp.com`) works without this step.
